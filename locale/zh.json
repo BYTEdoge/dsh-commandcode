@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "CommandCode 用量",
+    "description": "通过 API Key 连接 CommandCode 套餐模型，并显示账户余额与套餐用量。"
+  }
+}

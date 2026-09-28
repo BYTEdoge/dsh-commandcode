@@ -1,0 +1,11 @@
+# dsh-commandcode bundle patch
+#
+# One Host row. The Client half is picked up from `dsh.client` in package.json
+# and needs no row of its own.
+#
+# The row id is deliberately not `commandcode`: that name is the provider key
+# this plugin writes into `llm-pi-ai`'s `providers` dictionary, and keeping the
+# two namespaces distinct avoids confusing a Loader entry with a route.
+- insert:
+    - id: commandcode-usage
+      name: 'dsh-commandcode'
